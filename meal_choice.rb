@@ -10,8 +10,12 @@ def breakfast(b_food="frosted flakes")
 end
 
 def lunch(l_food="Grilled Cheese")
-  puts ""
+  puts "Lunch time is the best time for #{l_food}!"
+end
 
+def dinner(d_food="Salmon")
+  puts "Dinner time is the best time for #{d_food}!"
+end
 
 
 # Call the methods with puts and your own arguments here. Like this:
